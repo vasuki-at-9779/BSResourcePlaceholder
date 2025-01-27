@@ -5,7 +5,7 @@ plugins {
     id("com.gradle.plugin-publish") version "1.2.1"
 }
 
-group = "kvr.resourceplaceholders"
+group = "bs.resourceplaceholders"
 version = "1.0.0"
 
 // Use java-gradle-plugin to generate plugin descriptors and specify plugin ids
@@ -15,7 +15,7 @@ gradlePlugin {
 
     plugins {
         plugins.register("resource-placeholders") {
-            id = "kvr.resourceplaceholders"
+            id = "bs.resourceplaceholders"
             implementationClass =
                 "de.timfreiheit.plugin.resourceplaceholders.ResourcePlaceholdersPlugin"
             displayName = "ResourcePlaceholdersPlugin"

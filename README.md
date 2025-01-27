@@ -15,7 +15,7 @@ Add the following to your `build.gradle`:
 Build script snippet for plugins DSL:
 ```gradle
 plugins {
-  id("pt.jcosta.resourceplaceholders") version "X.X.X"
+  id("bs.resourceplaceholders") version "X.X.X"
 }
 ```
 
@@ -30,12 +30,12 @@ buildscript {
         }
     }
     dependencies {
-        classpath("pt.jcosta.resourceplaceholders:resource-placeholders:X.X.X")
+        classpath("bs.resourceplaceholders:resource-placeholders:X.X.X")
     }
 }
 
 apply plugin: 'com.android.application'
-apply plugin: "de.timfreiheit.resourceplaceholders"
+apply plugin: "bs.resourceplaceholders"
 
 ```
 

@@ -1,5 +1,5 @@
 plugins {
-    id("kvr.resourceplaceholders")
+    id("bs.resourceplaceholders")
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
 }
