@@ -71,3 +71,5 @@ resourcePlaceholders {
 
 Every file in which the placeholders should be supported must be listed.
 This improves incremental builds and avoid unnecessary work.
+# BSResourcePlaceholder
+# BSResourcePlaceholder
